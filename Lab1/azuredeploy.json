@@ -94,7 +94,6 @@
             },
             "kind": "StorageV2",
             "properties":  {
-                //"accountType": "[parameters('accountType')]"
             }
         },
 
