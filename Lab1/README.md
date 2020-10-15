@@ -18,7 +18,11 @@ Explanation of the command:
 
     --parameters @azuredeploy.parameters.json // this file makes the parametrization of the the ARM-template possible 
 
-Explanation of the parameters in the azuredeploy.parameters.json file. For each parameter, there is a default value used in the azuredeploy.json file if the parameter is empty:
+If the resource group doesn´t yet exist, you can either create it on the Azure portal or using the command:
+
+    az group create --name "FH2020" --location "West Europe"
+
+Following is the explanation of the parameters in the azuredeploy.parameters.json file. For each parameter, there is a default value used in the azuredeploy.json file if the parameter is empty:
 
  - storageAccountName
 	 - The name of the storage account that will be created
