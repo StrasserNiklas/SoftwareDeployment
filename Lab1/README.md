@@ -8,7 +8,7 @@ The command to execute the deployment:
 
 Explanation of the command:
 
-    --az deployment group create 
+    az deployment group create 
 
     --resource-group FH2020 // the deployment happens in this resource group, it has to exist
 
