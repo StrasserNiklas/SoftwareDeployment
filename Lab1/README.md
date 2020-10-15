@@ -1,3 +1,5 @@
+The ARM template (azuredeploy.json) creates an Azure storage account and a node web app using parameters (azuredeploy.parameters.json).
+
 To use the template, the Azure CLI must be installed (https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) and you have to be logged into Azure using the command "az login".
 
 The resource group and the files have to be in the path the command is executed.
@@ -8,7 +10,7 @@ The command to execute the deployment:
 
 Explanation of the command:
 
-    --az deployment group create 
+    az deployment group create 
 
     --resource-group FH2020 // the deployment happens in this resource group, it has to exist
 
