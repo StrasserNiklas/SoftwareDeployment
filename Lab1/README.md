@@ -16,7 +16,7 @@ Explanation of the command:
 
     --parameters @azuredeploy.parameters.json // this file makes the parametrization of the the ARM-template possible 
 
-Explanation of the parameters in the azuredeploy.parameters.json file. For each parameter, there is a default value used in the azuredeploy.json file if the parameter is empty:
+Explanation of the parameters in the azuredeploy.parameters.json file. For each parameter, there is a default value used in the azuredeploy.json file if the parameter is empty :
 
  - storageAccountName
 	 - The name of the storage account that will be created
