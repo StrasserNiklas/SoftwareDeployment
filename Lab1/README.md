@@ -1,7 +1,6 @@
-Um das Template benutzen zu können, muss man mittels dem Befehl "az login" in Azure eingeloggt sein.
+Um das Template benutzen zu können, muss man die Azure CLI installiert haben (https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) und mittels dem Befehl "az login" in Azure eingeloggt sein.
 
 Die Resource-Group und die Dateien müssen in dem Pfad, wo der Command ausgeführt wird, vorhanden sein.
-
 
 Der Befehl um das Deployment auszuführen: <br>
 az deployment group create --resource-group FH2020 --template-file azuredeploy.json --parameters @azuredeploy.parameters.json
