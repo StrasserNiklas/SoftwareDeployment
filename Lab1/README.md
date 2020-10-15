@@ -36,3 +36,5 @@ Following is the explanation of the parameters in the azuredeploy.parameters.jso
 	 - The github repository to be hosted
  - location
 	 - the location for the storage account
+
+More information about ARM-templates can be found at: https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview
