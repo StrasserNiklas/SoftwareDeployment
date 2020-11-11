@@ -9,9 +9,12 @@ Production: https://nikprod.azurewebsites.net
 
 Can be found at:
 
+Failed: https://github.com/StrasserNiklas/SoftwareDeployment/blob/main/Lab2/failedTest.PNG
+Successful: https://github.com/StrasserNiklas/SoftwareDeployment/blob/main/Lab2/successfulTest.PNG
+
 ### Screenshot of Azure DevOps Release Pipeline
 
-Can be found at:
+Can be found at: https://github.com/StrasserNiklas/SoftwareDeployment/blob/main/Lab2/releasePipeline.PNG
 
 ### How to start/approve releases
 
