@@ -1,0 +1,42 @@
+version: '3.7'
+
+services:
+   db:
+     image: sql
+     restart: always
+     ports:
+        - "3306:3306"
+     volumes:
+        - type: volume
+          source: dbdata
+          target: /var/lib/mysql
+     restart: always
+     environment:
+      DB_USER: wpuser
+      DB_PASSWORD: wppassword
+      DB_NAME: wordpress
+        
+   wordpress:
+     depends_on:
+       - db
+     image: wp
+     ports:
+       - "80:80"
+     volumes:
+       - type: volume
+         source: wpconfig
+         target: /etc/wordpress/
+       - type: volume
+         source: wpuploads
+         target: /var/www/html/wp-content/uploads/
+     restart: always
+     environment:
+      DB_USER: wpuser
+      DB_PASSWORD: wppassword
+      DB_NAME: wordpress
+      DB_HOST: db:8080
+
+volumes:
+  dbdata:
+  wpconfig:
+  wpuploads:
