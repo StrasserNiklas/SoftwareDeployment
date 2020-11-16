@@ -5,7 +5,7 @@ services:
      image: sql
      restart: always
      ports:
-        - "3306:3306"
+        - "8080:8080"
      volumes:
         - type: volume
           source: dbdata
