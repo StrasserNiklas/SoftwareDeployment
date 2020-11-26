@@ -1,0 +1,6 @@
+ca 10 minuten
+
+schritte, schwierigkeiten, wie gemacht, durch die services durchführen
+
+Demo:
+file editieren, devops funkt
