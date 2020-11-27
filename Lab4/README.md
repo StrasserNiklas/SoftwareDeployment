@@ -1,3 +1,7 @@
+# URL
+
+http://20.52.210.112
+
 # Deployment
 
 First, navigate to the folder where the `mysql-deployment.yaml` and the `wordpress-deployment.yaml` files are located. The files will later be uploaded to Azure. They contain the information for the containers.
